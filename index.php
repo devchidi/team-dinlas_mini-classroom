@@ -27,7 +27,7 @@
   {
         $User_name = $_POST['name'];
         $phone = $_POST['phone'];
-        $User_name = $_POST['email'];
+        $User_email = $_POST['email'];
         $user_message = $_POST['message'];
 
 
