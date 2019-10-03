@@ -38,7 +38,7 @@
         			  "Email_Id: $user_email.\n".
         			  "User Message: $user_message.\n";
 
-        $to_email = "israelisrae4@gmail.com";
+        $to_email = $User_email;
         $headers = "From: $email_from \r\n";
         $headers .= "Reply-To: $User_name\r\n";
 
